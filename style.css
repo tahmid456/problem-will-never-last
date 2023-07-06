@@ -1,0 +1,210 @@
+
+*{
+
+margin:0;
+padding:0;
+
+
+}
+
+img{
+
+width:120px;
+height:130px;
+
+}
+
+.container{
+
+background-color: #003;
+display:flex;
+justify-content: space-around;
+
+align-items: center;
+font-size: 1.6rem;
+
+
+}
+.nav-menu{
+
+display:flex;
+color:white;
+list-style-type: none;
+
+
+}
+.nav-menu,li{
+
+margin:10px;
+padding:7px;
+
+}
+
+.main-photo-2{
+width:220px;
+height:220px;
+margin:100px;
+
+
+}
+.main-section{
+
+display:flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: row-reverse;
+
+}
+
+h1{
+
+font-size: 55px;
+font-weight: bolder;
+margin-bottom:10px;
+
+}
+
+.main-section{
+
+background-image: url("./images/mohamed-nohassi--0xMiYQmk8g-unsplash.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+width:1600px;
+height: 1800px;
+
+}
+
+.btn{
+margin: 10px;
+padding:10px;
+border-radius: 5px;
+background: red;
+
+}
+.about-us{
+margin-top:0;
+
+
+padding: 100px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+.about-img{
+
+background-image: url("./images/programmers.jpg");
+width: 600px;
+height: 500px;
+background-size: contain;
+background-repeat: no-repeat;
+margin-bottom: 20px;
+
+
+}
+
+.about-desc{
+
+margin-top: 30px;
+
+}
+
+.btn-2{
+margin:20px;
+padding:20px;
+cursor: pointer;
+color:white;
+background-color:red;
+
+
+}
+h2{
+
+    margin-bottom: 15px;
+}
+
+
+.card{
+width:300px;
+height:300px;
+border:1px solid blue;
+box-shadow: 10px 20px 15px;
+padding:30px;
+margin:20px;
+color:beige;
+background-color: black;
+
+
+}
+.card-logo{
+
+width:100px;
+height:100px;
+margin: 0 auto;
+
+}
+
+.card-title{
+
+margin-top:30px;
+text-align: center;
+justify-content: center;
+
+}
+.card-desc{
+
+    margin-top: 30px;
+    text-align: center;
+}
+.service-container{
+
+display:flex;
+justify-content: space-around;
+background: #000;
+
+
+}
+
+.card:hover{
+
+background-color: #003;
+box-shadow: 10px 10px 20px red;
+
+
+}
+
+h4{
+
+text-align: center;
+font-size: 6rem;
+font-weight: bolder;
+
+
+}
+
+.footer-container{
+margin:0;
+padding:20px;
+display:flex;
+justify-content: space-around;
+background-color: #003;
+color:white;
+font-size: 1.6rem;
+
+
+}
+
+a{
+
+display:block;
+text-decoration: none;
+margin:10px;
+padding:10px;
+word-spacing: normal;
+
+}
+
+#para-footer{
+margin-top: 10px;
+
+}
